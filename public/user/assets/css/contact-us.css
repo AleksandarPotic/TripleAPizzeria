@@ -1,0 +1,318 @@
+ 	*{
+		margin: 0px;
+		padding: 0px;
+	}
+
+	.contact-text h1{
+		padding-top: 20px;
+		padding-bottom: 20px;
+		color: #e66001;
+		font-family: 'Roboto', sans-serif;
+	}
+
+	#contact-content{
+		padding-bottom: 50px;
+	}
+
+	#contact-left{
+		padding-right: 15px;
+		padding-left: 15px;
+	}
+	
+	#contact-left-sub-one{
+		padding-bottom: 20px;
+		border-bottom: 3px solid #e66001;
+	}
+
+	#contact-left-sub-one p{
+		font-weight: bold;
+		color: #01181e;
+		font-family: 'Roboto', sans-serif;
+	}
+
+	#contact-left-sub-two{
+		padding-top: 30px;
+		padding-bottom: 15px;
+		border-bottom: 3px solid #e66001;
+	}
+	
+	.text{
+		margin-bottom: 25px;
+		text-align: center;
+	}
+
+	.text p{
+		margin-bottom: 0px;
+		font-weight: bold;
+		font-family: 'Roboto', sans-serif;
+	}
+
+	.text i{
+		color: #e66001;
+		margin-left: 5px;
+		font-size: 29px;
+		margin-top: 5px;
+	}
+	
+	.first-p{
+		color: #e66001;
+		font-family: 'Roboto', sans-serif;
+		font-size: 1.15rem;
+	}
+
+	.second-p{
+		color: #01181e;
+		font-family: 'Roboto', sans-serif;
+		font-size: 1.15rem;
+	}
+
+	#contact-right{
+		padding-left: 15px;
+		padding-right: 15px;
+		margin-top: 30px;
+	}
+
+	#contact-right input{
+		border: 2px solid #e66001;
+		font-family: 'Roboto', sans-serif;
+	}
+	
+	#contact-right textarea{
+		border: 2px solid #e66001;
+		font-family: 'Roboto', sans-serif;
+	}
+
+	#contact-right button{
+		padding-left: 50px;
+		padding-right: 50px;
+		background: #fff;
+		border: 2px solid #e66001;
+		-webkit-transition: all .3s;
+		-moz-transition: all .3s;
+		-o-transition: all .3s;
+		color: #e66001;
+		font-family: 'Roboto', sans-serif;
+	}
+
+	#contact-right button:hover{
+		background: #e66001;
+		color: #fff;
+	}
+
+	#map{
+		padding-left: 0px;
+		padding-right: 0px;
+		padding-bottom: 30px;
+	}
+
+	#line{
+		border-top: 2px solid #e66001;
+		margin-bottom: 30px;
+	}
+
+	/*#footer-container{
+		max-width: 100%;
+	}*/
+	
+/**
+* Everything beyond the first media tag refers to mobile versions in portrait mode.
+* Css for mobile and tablet devices relates to all media tags up to 1023px browser width.
+**/
+
+@media (min-width: 544px) {
+
+	.contact-text h1{
+		padding-top: 20px;
+		padding-bottom: 20px;
+		color: #e66001;
+		font-family: 'Roboto', sans-serif;
+	}
+
+	#contact-content{
+		padding-bottom: 50px;
+	}
+
+	#contact-left{
+		padding-right: 15px;
+		padding-left: 15px;
+	}
+	
+	#contact-left-sub-one{
+		padding-bottom: 20px;
+		border-bottom: 3px solid #e66001;
+	}
+
+	#contact-left-sub-one p{
+		font-weight: bold;
+		color: #01181e;
+		font-family: 'Roboto', sans-serif;
+	}
+
+	#contact-left-sub-two{
+		padding-top: 30px;
+		padding-bottom: 15px;
+		border-bottom: 3px solid #e66001;
+	}
+	
+	.text{
+		margin-bottom: 25px;
+	}
+
+	.text p{
+		margin-bottom: 0px;
+		font-weight: bold;
+		font-family: 'Roboto', sans-serif;
+	}
+
+	.text i{
+		color: #e66001;
+		margin-left: 5px;
+		margin-top: 5px;
+	}
+	
+	.first-p{
+		color: #e66001;
+		font-family: 'Roboto', sans-serif;
+		font-size: 1.15rem;
+	}
+
+	.second-p{
+		color: #01181e;
+		font-family: 'Roboto', sans-serif;
+		font-size: 1.15rem;
+	}
+
+	#contact-right{
+		padding-left: 15px;
+		padding-right: 15px;
+		margin-top: 30px;
+	}
+
+	#map{
+		padding-left: 0px;
+		padding-right: 0px;
+		padding-bottom: 30px;
+	}
+
+	#line{
+		border-top: 2px solid #e66001;
+		margin-bottom: 30px;
+	}
+
+	/*#footer-container{
+		max-width: 100%;
+	}*/
+
+ }
+
+@media (min-width: 768px) { 
+
+	#contact-right{
+		margin-top: 0px;
+	}
+
+	.text{
+		text-align: left;
+	}
+
+}
+
+@media (min-width: 992px) {
+	
+ }
+
+
+
+/**
+* From here we start with styling the site for desctop devices. 
+**/
+
+@media (min-width: 1200px) {
+
+	.contact-text h1{
+		padding-top: 40px;
+		padding-bottom: 40px;
+		color: #e66001;
+		font-size: 3rem;
+		font-family: 'Roboto', sans-serif;
+	}
+
+	#contact-content{
+		padding-bottom: 50px;
+	}
+
+	#contact-left{
+		border-right: 3px solid #e66001;
+		padding-right: 40px;
+		padding-left: 0px;
+	}
+	
+	#contact-left-sub-one{
+		padding-bottom: 20px;
+		border-bottom: 3px solid #e66001;
+	}
+
+	#contact-left-sub-one p{
+		font-weight: bold;
+		color: #01181e;
+		font-family: 'Roboto', sans-serif;
+		font-size: 1.15rem;
+	}
+
+	#contact-left-sub-two{
+		padding-top: 30px;
+		padding-bottom: 15px;
+		border-bottom: 3px solid #e66001;
+	}
+	
+	.text{
+		margin-bottom: 25px;
+	}
+
+	.text p{
+		margin-bottom: 0px;
+		font-weight: bold;
+		font-family: 'Roboto', sans-serif;
+	}
+
+	.text i{
+		color: #e66001;
+		margin-left: 5px;
+		margin-top: 5px;
+	}
+	
+	.first-p{
+		color: #e66001;
+		font-family: 'Roboto', sans-serif;
+		font-size: 1.15rem;
+	}
+
+	.second-p{
+		color: #01181e;
+		font-family: 'Roboto', sans-serif;
+		font-size: 1.15rem;
+	}
+
+	#contact-right{
+		padding-left: 40px;
+		padding-right: 0px;
+	}
+
+	#map{
+		padding-left: 0px;
+		padding-right: 0px;
+		padding-bottom: 30px;
+	}
+
+	#line{
+		border-top: 2px solid #e66001;
+		margin-bottom: 30px;
+	}
+
+	/*#footer-container{
+		max-width: 100%;
+	}*/
+
+
+ }
+

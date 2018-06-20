@@ -1,0 +1,907 @@
+	*{
+		margin: 0px;
+		padding: 0px;
+	}
+
+	#contact-image{
+		width: 100%;
+		height: 30vh;
+		background-repeat: no-repeat;
+		background-attachment: scroll;
+		background-position: center center;
+		background-size: cover;
+		-webkit-background-size: cover;
+		-moz-background-size: cover;
+		-o-background-size: cover;
+	}
+
+	#back-menu{
+		background-color: #e66001;
+		color: #fff;
+		border: 2px solid #e66001;
+		padding-left: 20px;
+		padding-right: 20px;
+		margin-top: 30px;
+		margin-bottom: 20px;
+		-webkit-transition: all .3s;
+		-moz-transition: all .3s;
+		-o-transition: all .3s;
+	}
+
+	#back-menu:hover{
+		background-color: transparent;
+		color: #e66001;
+	}
+
+	#menu-first{
+		display: none;
+	}
+
+	#menu-second{
+		display: block;
+		background: #e66001;
+	}
+	
+	.menu{
+		padding-top: 15px;
+		padding-bottom: 15px;
+	}
+
+	.menu ul{
+		margin-bottom: 0px;
+	}
+
+	#buttons{
+		margin-bottom: 30px;
+	}
+
+	#buttons button{
+		background: #e66001;
+		color: #fff;
+		border: 2px solid #e66001;
+		margin-left: 20px;
+		margin-top: 10px;
+		 outline:0px !important;
+    	-webkit-appearance:none;
+    	box-shadow: none;
+	}
+
+	.menu li{
+		width: 47%;
+		text-align: center;
+		font-family: 'Roboto', sans-serif;
+		cursor: pointer;
+		float: left;
+		padding-top: 5px;
+		padding-bottom: 5px;
+		
+	}
+
+	.menu li a{
+		text-decoration: none;
+		color: #fff;
+		-webkit-transition: all .3s;
+		-moz-transition: all .3s;
+		-o-transition: all .3s;
+		border-bottom: 2px solid #e66001;
+	}
+
+	.menu li a:hover{
+		color: #fff;
+		border-bottom: 2px solid #fff;
+	}
+
+	.pizza{
+		padding-top: 30px;
+		padding-bottom: 30px;
+		color: #e66001;
+		font-family: 'Roboto', sans-serif;
+	}
+
+	#item{
+		padding-top: 10px;
+		margin-top: 10px;
+	}
+
+	#item ul{
+		margin-bottom: 0px;
+	}
+
+	#item ul li{
+		width: 30%;
+		font-family: 'Roboto', sans-serif;
+		vertical-align: middle;
+	}
+
+	.price{
+		color: #e66001;
+		font-family: 'Roboto', sans-serif;
+	}
+
+	#item button{
+		background: #e66001;
+		color: #fff;
+		padding-top: 3px;
+		padding-bottom: 3px;
+		font-family: 'Roboto', sans-serif;
+		border: 2px solid #e66001;
+		-webkit-transition: all .3s;
+		-moz-transition: all .3s;
+		-o-transition: all .3s;
+	}
+
+	#item button:hover{
+		background: #fff;
+		color: #e66001;
+		border: 2px solid #e66001;
+	}
+
+	#item p{
+		margin-top: 10px;
+	}
+
+	.line{
+		width: 100%;
+		border-top: 2px solid #e66001;
+		margin-top: 10px;
+	}
+
+	.modal-dialog{
+		border: 20px solid #e66001;
+	}
+
+	#exampleModal1{
+		font-family: 'Roboto', sans-serif;
+	}
+
+	.modal-header{
+		position: relative;
+	}
+
+	.modal-title{
+		max-width: 200px;
+		vertical-align: top;
+		font-weight: 800;
+	}
+
+	#prica{
+		position: absolute;
+		right: 50px;
+		top: 20px;
+		color: #e66001;
+		font-weight: 800;
+		margin-right: 5px;
+	}
+
+	.modal-p{
+		font-weight: 600;
+	}
+
+	#exampleModal1 select{
+		border: 1px solid #e66001;
+		width: 180px;
+		border-radius: 10px;
+	}
+
+	#exampleModal1 input[type="number"]{
+		border: 1px solid #e66001;
+		float: right;
+		width: 60px;
+		margin-left: 50px;
+		border-radius: 10px;
+	}
+
+	#exampleModal1 textarea{
+		width: 180px;
+		border: 1px solid #e66001;
+		border-radius: 10px;
+		text-indent: 15px;
+	}
+
+	#exampleModal1 button{
+		background: #e66001;
+		color: #fff;
+		border: 2px solid #e66001;
+		-webkit-transition: all .3s;
+		-moz-transition: all .3s;
+		-o-transition: all .3s;
+	}
+
+	#exampleModal1 button:hover{
+		color: #e66001;
+		background: #fff;
+	}
+
+	.extras{
+		margin-top: 20px;
+	}
+
+	.modal-body h5{
+		font-weight: 800;
+	}
+
+	.chee {
+	    display: block;
+	    position: relative;
+	    padding-left: 35px;
+	    margin-bottom: 12px;
+	    margin-top: 10px;
+	    padding-top: 3px;
+	    cursor: pointer;
+	    font-size: 16px;
+	    -webkit-user-select: none;
+	    -moz-user-select: none;
+	    -ms-user-select: none;
+	    user-select: none;
+	}
+
+	.chee input {
+	    position: absolute;
+	    opacity: 0;
+	    cursor: pointer;
+	}
+
+	.checkmark {
+	    position: absolute;
+	    top: 0;
+	    left: 0;
+	    height: 25px;
+	    width: 25px;
+	    background-color: #fff;
+	    border: 1px solid #e66001;
+	    border-radius: 5px;
+	}
+
+	.chee input:checked ~ .checkmark {
+	    background-color: #e66001;
+	}
+
+	.checkmark:after {
+	    content: "";
+	    position: absolute;
+	    display: none;
+	}
+
+	.chee input:checked ~ .checkmark:after {
+	    display: block;
+	}
+
+	.chee .checkmark:after {
+	    left: 9px;
+	    top: 5px;
+	    width: 5px;
+	    height: 10px;
+	    border: solid white;
+	    border-width: 0 3px 3px 0;
+	    -webkit-transform: rotate(45deg);
+	    -ms-transform: rotate(45deg);
+	    transform: rotate(45deg);
+	}
+
+	#linee{
+		border-top: 2px solid #e66001;
+		margin-top: 30px;
+		margin-bottom: 30px;
+	}
+
+	#icecreams{
+		display: none;
+	}
+
+	#milkshakes{
+		display: none;
+	}
+
+	#haagens{
+		display: none;
+	}
+
+	#bens{
+		display: none;
+	}
+
+	#chipss{
+		display: none;
+	}
+
+	#bars{
+		display: none;
+	}
+
+	#buttons .active{
+		background-color: transparent;
+		color:#e66001;
+
+	}
+
+@media (min-width: 319px){
+
+	.modal-title{
+		max-width: 160px;
+		vertical-align: top;
+		font-weight: 800;
+	}
+
+	#exampleModal1 select{
+		border: 1px solid #e66001;
+		width: 140px;
+		border-radius: 10px;
+	}
+
+	#exampleModal1 input[type="number"]{
+		border: 1px solid #e66001;
+		float: right;
+		width: 60px;
+		margin-left: 10px;
+		border-radius: 10px;
+	}
+
+	 #buttons #mobilebutton{
+ 		margin-left: 20px;
+ 	}
+
+}
+
+@media (min-width: 360px){
+
+	#exampleModal1 select{
+		border: 1px solid #e66001;
+		width: 160px;
+		border-radius: 10px;
+	}
+
+	#exampleModal1 input[type="number"]{
+		border: 1px solid #e66001;
+		float: right;
+		width: 60px;
+		margin-left: 30px;
+		border-radius: 10px;
+	}
+
+	 #buttons #mobilebutton{
+ 		margin-left: 20px;
+ 	}
+
+ 		#milk{
+			margin-right: 0px; 		
+		}
+
+}
+
+@media (min-width: 390px) {
+
+		#milk{
+			margin-right: 20px; 		
+		}
+
+		#mobilebutton{
+ 		margin-left: 50px;
+ 	}
+
+}
+
+@media (min-width: 400px){
+
+	#exampleModal1 select{
+		border: 1px solid #e66001;
+		width: 190px;
+		border-radius: 10px;
+	}
+
+	#exampleModal1 input[type="number"]{
+		border: 1px solid #e66001;
+		float: right;
+		width: 60px;
+		margin-left: 40px;
+		border-radius: 10px;
+	}
+
+	#buttons #mobilebutton{
+ 		margin-left: 20px;
+ 	}
+}
+
+
+@media (min-width: 434px){
+	#buttons #mobilebutton{
+ 		margin-left: -5px;
+ 	}
+
+ }
+
+@media (min-width: 479px){
+	
+	#exampleModal1 select{
+		border: 1px solid #e66001;
+		width: 220px;
+		border-radius: 10px;
+	}
+
+	#exampleModal1 input[type="number"]{
+		border: 1px solid #e66001;
+		float: right;
+		width: 70px;
+		margin-left: 95px;
+		border-radius: 10px;
+	}
+
+ }
+	
+/**
+* Everything beyond the first media tag refers to mobile versions in portrait mode.
+* Css for mobile and tablet devices relates to all media tags up to 1023px browser width.
+**/
+
+@media (min-width: 544px) {
+
+
+	#contact-image{
+		width: 100%;
+		height: 50vh;
+		background-repeat: no-repeat;
+		background-attachment: scroll;
+		background-position: center center;
+		background-size: cover;
+		-webkit-background-size: cover;
+		-moz-background-size: cover;
+		-o-background-size: cover;
+	}
+
+	#menu-first{
+		display: none;
+	}
+
+	#menu-second{
+		display: block;
+	}
+	
+	.menu{
+		padding-top: 15px;
+		padding-bottom: 15px;
+	}
+
+	.menu ul{
+		margin-bottom: 0px;
+	}
+
+	.menu li{
+		width: 47%;
+		text-align: center;
+		font-family: 'Roboto', sans-serif;
+		cursor: pointer;
+		float: left;
+		
+	}
+
+	.menu li a{
+		text-decoration: none;
+		color: #fff;
+		-webkit-transition: all .3s;
+		-moz-transition: all .3s;
+		-o-transition: all .3s;
+		border-bottom: 2px solid #e66001;
+	}
+
+	.menu li a:hover{
+		color: #fff;
+		border-bottom: 2px solid #fff;
+	}
+
+	.pizza{
+		padding-top: 30px;
+		padding-bottom: 30px;
+		color: #e66001;
+		font-family: 'Roboto', sans-serif;+
+		padding-left: 0;
+		padding-right: 0;
+	}
+
+	#item{
+		padding-top: 10px;
+	}
+
+	#item ul{
+		margin-bottom: 0px;
+	}
+
+	#item ul li{
+		width: 30%;
+		font-family: 'Roboto', sans-serif;
+	}
+
+	.price{
+		color: #e66001;
+		font-family: 'Roboto', sans-serif;
+	}
+
+	#item button{
+		background: #e66001;
+		color: #fff;
+		padding-top: 3px;
+		padding-bottom: 3px;
+		font-family: 'Roboto', sans-serif;
+		border: 2px solid #e66001;
+		-webkit-transition: all .3s;
+		-moz-transition: all .3s;
+		-o-transition: all .3s;
+	}
+
+	#item button:hover{
+		background: #fff;
+		color: #e66001;
+		border: 2px solid #e66001;
+	}
+
+	#linee{
+		border-top: 2px solid #e66001;
+		margin-top: 30px;
+		margin-bottom: 30px;
+	}
+
+	.modal-dialog{
+		border: 20px solid #e66001;
+	}
+
+	#exampleModal1{
+		font-family: 'Roboto', sans-serif;
+	}
+
+	.modal-title{
+		max-width: 300px;
+		font-weight: 800;
+	}
+
+	.modal-p{
+		font-weight: 600;
+	}
+
+	#exampleModal1 textarea{
+		width: 200px;
+		height: 80px;
+		border: 1px solid #e66001;
+		border-radius: 10px;
+		text-indent: 15px;
+	}
+
+	#exampleModal1 button{
+		background: #e66001;
+		color: #fff;
+		border: 2px solid #e66001;
+		-webkit-transition: all .3s;
+		-moz-transition: all .3s;
+		-o-transition: all .3s;
+	}
+
+	#exampleModal1 button:hover{
+		color: #e66001;
+		background: #fff;
+	}
+
+ }
+
+ @media(min-width: 611px){
+ 	#buttons #mobilebutton{
+ 		margin-left: 20px;
+ 	}
+ }
+
+ @media (min-width: 629px){
+ 	#milk{
+ 		margin-right: 0px; 	
+ 	}
+ }
+
+
+@media (min-width: 768px) {
+	
+	.pizza h1{
+		margin-left: -35px;
+	}
+
+	#buttons{
+		margin-left: -30px;
+	}
+
+	#contact-image{
+		width: 100%;
+		height: 60vh;
+		background-repeat: no-repeat;
+		background-attachment: scroll;
+		background-position: center center;
+		background-size: cover;
+		-webkit-background-size: cover;
+		-moz-background-size: cover;
+		-o-background-size: cover;
+	}
+
+	#menu-first{
+		display: none;
+	}
+
+	#menu-second{
+		display: block;
+	}
+	
+	.menu{
+		padding-top: 15px;
+		padding-bottom: 15px;
+	}
+
+	.menu ul{
+		margin-bottom: 0px;
+	}
+
+	.menu li{
+		width: 47%;
+		text-align: center;
+		font-family: 'Roboto', sans-serif;
+		cursor: pointer;
+		float: left;
+	}
+
+	.menu li a{
+		text-decoration: none;
+		color: #fff;
+		-webkit-transition: all .3s;
+		-moz-transition: all .3s;
+		-o-transition: all .3s;
+		border-bottom: 2px solid #e66001;
+	}
+
+	.menu li a:hover{
+		color: #fff;
+		border-bottom: 2px solid #fff;
+	}
+
+	.pizza{
+		padding-top: 30px;
+		padding-bottom: 30px;
+		color: #e66001;
+		font-family: 'Roboto', sans-serif;
+	}
+
+	#item{
+		padding-top: 10px;
+	}
+
+	#item ul{
+		margin-bottom: 0px;
+	}
+
+	#item ul li{
+		width: 28%;
+		font-family: 'Roboto', sans-serif;
+	}
+
+	#item p{
+		margin-top: 7px;
+	}
+
+	.price{
+		color: #e66001;
+		font-family: 'Roboto', sans-serif;
+	}
+
+	#item button{
+		background: #e66001;
+		color: #fff;
+		padding-top: 3px;
+		padding-bottom: 3px;
+		font-family: 'Roboto', sans-serif;
+		border: 2px solid #e66001;
+		-webkit-transition: all .3s;
+		-moz-transition: all .3s;
+		-o-transition: all .3s;
+	}
+
+	#item button:hover{
+		background: #fff;
+		color: #e66001;
+		border: 2px solid #e66001;
+	}
+
+	.linee{
+		border-top: 2px solid #e66001;
+		margin-top: 30px;
+		margin-bottom: 30px;
+	}
+
+ }
+
+@media (min-width: 992px) {
+
+	#contact-image{
+		max-width: 100%;
+		height: 50vh;
+		background-repeat: no-repeat;
+		background-attachment: scroll;
+		background-position: center center;
+		background-size: cover;
+		-webkit-background-size: cover;
+		-moz-background-size: cover;
+		-o-background-size: cover;
+	}
+}
+
+
+
+/**
+* From here we start with styling the site for desctop devices. 
+**/
+
+@media (min-width: 1200px) {
+
+	#contact-image{
+		width: 100%;
+		height: 60vh;
+		background-repeat: no-repeat;
+		background-attachment: scroll;
+		background-position: center center;
+		background-size: cover;
+		-webkit-background-size: cover;
+		-moz-background-size: cover;
+		-o-background-size: cover;
+	}
+
+	#menu-first{
+		display: block;
+		background: #e66001;
+		padding-bottom: 15px;
+	}
+
+	#menu-second{
+		display: none;
+	}
+
+	.menu{
+		padding-top: 15px;
+		padding-bottom: 15px;
+	}
+
+	.menu ul{
+		margin-bottom: 0px;
+	}
+
+	.menu li{
+		width: 9.37%;
+		text-align: center;
+		font-family: 'Roboto', sans-serif;
+		cursor: pointer;
+		
+	}
+
+	.menu li a{
+		text-decoration: none;
+		color: #fff;
+		-webkit-transition: all .3s;
+		-moz-transition: all .3s;
+		-o-transition: all .3s;
+		border-bottom: 2px solid #e66001;
+	}
+
+	.menu li a:hover{
+		color: #fff;
+		border-bottom: 2px solid #fff;
+	}
+
+	.menu1 ul{
+		margin-bottom: 0px;
+	}
+
+	.menu1 li{
+		width: 10.1%;
+		text-align: center;
+		font-family: 'Roboto', sans-serif;
+		cursor: pointer;
+		
+	}
+
+	.menu1 li a{
+		text-decoration: none;
+		color: #fff;
+		-webkit-transition: all .3s;
+		-moz-transition: all .3s;
+		-o-transition: all .3s;
+		border-bottom: 2px solid #e66001;
+	}
+
+	.menu1 li a:hover{
+		color: #fff;
+		border-bottom: 2px solid #fff;
+	}
+
+	.pizza{
+		padding-top: 30px;
+		padding-bottom: 30px;
+		color: #e66001;
+		font-family: 'Roboto', sans-serif;
+	}
+	
+	#item{
+		padding-top: 10px;
+	}
+
+	#item ul{
+		margin-bottom: 0px;
+	}
+
+	#item ul li{
+		width: 31%;
+		font-family: 'Roboto', sans-serif;
+	}
+
+	.price{
+		color: #e66001;
+		font-family: 'Roboto', sans-serif;
+	}
+
+	#item button{
+		background: #e66001;
+		color: #fff;
+		padding-top: 3px;
+		padding-bottom: 3px;
+		font-family: 'Roboto', sans-serif;
+		border: 2px solid #e66001;
+		-webkit-transition: all .3s;
+		-moz-transition: all .3s;
+		-o-transition: all .3s;
+	}
+
+	#item button:hover{
+		background: #fff;
+		color: #e66001;
+		border: 2px solid #e66001;
+	}
+
+	#linee{
+		border-top: 2px solid #e66001;
+		margin-top: 30px;
+		margin-bottom: 30px;
+	}
+
+	.modal-dialog{
+		border: 20px solid #e66001;
+	}
+
+	#exampleModal1 select{
+		border: 1px solid #e66001;
+		width: 250px;
+		border-radius: 10px;
+	}
+
+	#exampleModal1 input[type="number"]{
+		border: 1px solid #e66001;
+		float: right;
+		width: 70px;
+		margin-left: 90px;
+		border-radius: 10px;
+	}
+
+	#exampleModal1{
+		font-family: 'Roboto', sans-serif;
+	}
+
+	.modal-title{
+		font-weight: 800;
+	}
+
+	.modal-p{
+		font-weight: 600;
+	}
+
+	#exampleModal1 button{
+		background: #e66001;
+		color: #fff;
+		border: 2px solid #e66001;
+		-webkit-transition: all .3s;
+		-moz-transition: all .3s;
+		-o-transition: all .3s;
+	}
+
+	#exampleModal1 button:hover{
+		color: #e66001;
+		background: #fff;
+	}
+
+
+ }

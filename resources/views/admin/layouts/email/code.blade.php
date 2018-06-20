@@ -1,0 +1,1 @@
+You get a discount code - {{ $code->code }}, you have {{ $code->percent }} percent discount.

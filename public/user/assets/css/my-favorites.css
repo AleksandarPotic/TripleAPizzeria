@@ -1,0 +1,284 @@
+	*{
+		margin: 0px;
+		padding: 0px;
+		font-family: 'Roboto', sans-serif;
+	}
+
+	#rewards{
+		margin-top: 20px;
+		margin-bottom: 20px;
+	}
+
+	#card-body{
+		padding-top: 10px;
+		padding-bottom: 0px;
+	}
+
+	.card ul li{
+		margin-left: 10px;
+	}
+
+	.card{
+		margin-bottom: 10px;
+		margin-top: 15px;
+	}
+
+	.card-body{
+		padding: 1.20rem;
+	}
+
+	.card-body{
+		border: 1px solid #e66001;
+	}
+
+	.card-body a{
+		text-decoration: none;
+		background-color: #e66001;
+		color: #fff;
+		border: 2px solid #e66001;
+		-webkit-transition: all .3s;
+		-moz-transition: all .3s;
+		-o-transition: all .3s;
+	}
+
+	.card-body a:hover{
+		background: transparent;
+		color: #e66001;
+		border: 2px solid #e66001;
+	}
+
+	#container{
+		padding-bottom: 30px;
+	}
+
+	#conn{
+		padding-top: 30px;
+	}
+
+	#profile-info{
+		padding-top: 30px;
+		border-right: 2px solid #e66001;
+	}
+
+	#profile-info p{
+		margin-top: 30px;
+	}
+
+	#profile-form{
+		margin-top: 25px;
+	}
+
+	#profile-form input{
+		border: 1px solid #e66001;
+	}
+
+	#profile-form button{
+		background: #e66001;
+		color: #fff;
+		border:2px solid #e66001;
+		padding-left: 40px;
+		padding-right: 40px;
+		margin-top: 10px;
+		-webkit-transition: all .3s;
+		-moz-transition: all .3s;
+		-o-transition: all .3s;
+	}
+
+	#profile-form button:hover{
+		background: #fff;
+		color: #e66001;
+	}
+	
+	#my-points{
+		padding-top: 25px;
+		border-bottom: 2px solid #e66001;
+	}
+
+	#my-favorites{
+		padding-top: 25px;
+	}
+
+	#item{
+		padding-top: 10px;
+		margin-top: 10px;
+	}
+
+	#item ul{
+		margin-bottom: 0px;
+	}
+
+	#item ul li{
+		width: 30%;
+		font-family: 'Roboto', sans-serif;
+		vertical-align: middle;
+	}
+
+	.price{
+		color: #e66001;
+		font-family: 'Roboto', sans-serif;
+	}
+
+	#item p{
+		margin-top: 10px;
+	}
+
+	#item button{
+		background: #e66001;
+		color: #fff;
+		padding-top: 3px;
+		padding-bottom: 3px;
+		font-family: 'Roboto', sans-serif;
+		border: 2px solid #e66001;
+		-webkit-transition: all .3s;
+		-moz-transition: all .3s;
+		-o-transition: all .3s;
+	}
+
+	#item button:hover{
+		background: #fff;
+		color: #e66001;
+		border: 2px solid #e66001;
+	}
+
+	.line{
+		width: 100%;
+		border-top: 2px solid #e66001;
+		margin-top: 10px;
+	}
+	
+	#change-forms{
+		padding-bottom: 40px;
+		border-top: 2px solid #e66001;
+		border-bottom: 2px solid #e66001;
+		margin-top: 30px;
+	}
+
+	#left-change-form{
+		padding-top: 40px;
+	}
+
+	#left-change-form h2{
+		margin-bottom: 15px;
+	}
+
+	#left-change-form input{
+		border: 1px solid #e66001;
+	}
+
+	#left-change-form button{
+		background: #e66001;
+		color: #fff;
+		border: 2px solid #e66001;
+		padding-left: 30px;
+		padding-right: 30px;
+		-webkit-transition: all .3s;
+		-moz-transition: all .3s;
+		-o-transition: all .3s;
+	}
+
+	#left-change-form button:hover{
+		background: #fff;
+		color: #e66001;
+	}
+
+	#right-change-form{
+		padding-top: 40px;
+	}
+
+	#right-change-form h2{
+		margin-bottom: 15px;
+	}
+
+	#right-change-form input{
+		border: 1px solid #e66001;
+	}
+
+	#right-change-form button{
+		background: #e66001;
+		color: #fff;
+		border: 2px solid #e66001;
+		padding-left: 30px;
+		padding-right: 30px;
+		-webkit-transition: all .3s;
+		-moz-transition: all .3s;
+		-o-transition: all .3s;
+	}
+
+	#right-change-form button:hover{
+		background: #fff;
+		color: #e66001;
+	}
+
+	#past-orders{
+		padding-top: 40px;
+	}
+
+	#past-orders h2{
+		margin-bottom: 30px;
+	}
+
+	#profile-info-two nav ul li{
+		border: 1px solid #e66001;
+	}
+	
+	#profile-info-two nav ul li a{
+		color: #e66001;
+	}
+
+	#past-orders nav ul li{
+		border: 1px solid #e66001;
+	}
+	
+	#past-orders nav ul li a{
+		color: #e66001;
+	}
+
+	.pagination{
+		justify-content: center;
+		margin-left: 1px;
+	}
+
+
+	
+/**
+* Everything beyond the first media tag refers to mobile versions in portrait mode.
+* Css for mobile and tablet devices relates to all media tags up to 1023px browser width.
+**/
+
+@media (min-width: 544px) {
+
+}
+
+@media (min-width: 768px) {
+
+}
+
+@media (min-width: 992px) {
+	
+	#profile-info{
+		padding-right: 30px;
+	}
+
+	#profile-info-two{
+		padding-left: 30px;
+	}
+
+	#right-change-form{
+		padding-left: 30px;
+	}
+
+	#left-change-form{
+		padding-right: 30px;
+	}
+
+}
+
+
+
+/**
+* From here we start with styling the site for desctop devices. 
+**/
+
+@media (min-width: 1200px) {
+
+ }

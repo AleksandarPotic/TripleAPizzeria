@@ -1,0 +1,290 @@
+	*{
+		margin: 0px;
+		padding: 0px;
+	}
+
+	#container1{
+		display: -ms-flexbox;
+	    display: -webkit-flex;
+	    display: flex;
+	    -ms-flex-align: center;
+	    -webkit-align-items: center;
+	    -webkit-box-align: center;
+	    align-items: center;
+	}
+
+	.images{
+		width: 100%;
+		height: 50vh;
+		background-position: center center;
+		background-attachment: scroll;
+		background-repeat: no-repeat;
+		background-size: cover;
+		-webkit-background-size: cover;
+		-moz-background-size: cover;
+		-o-background-size: cover;
+	}
+
+	.mySlides {
+	    display: none;
+	}
+
+	.prev, .next {
+		cursor: pointer;
+		position: absolute;
+		top: 50%;
+		width: auto;
+		margin-top: -22px;
+		padding: 16px;
+		color: white;
+		font-weight: bold;
+		font-size: 18px;
+		transition: 0.6s ease;
+		border-radius: 0 3px 3px 0;
+	}
+
+	.next {
+	  right: 0;
+	  border-radius: 3px 0 0 3px;
+	}
+
+	.prev:hover, .next:hover {
+	  background-color: rgba(0,0,0,0.8);
+	}
+
+	#dots{
+		display: none;
+		position: absolute;
+		margin-top: -20px;
+		z-index: 9;
+		transform: rotateZ(90deg);
+		right: 0px;
+	}
+
+	.dot {
+	    cursor:pointer;
+	    height: 30px;
+	    width: 30px;
+	    margin: 0 2px;
+	    background: #e66001;
+	    border-radius: 50%;
+	    display: inline-block;
+	    transition: background-color 0.6s ease;
+	    border: solid 2px #f06d06;
+	    padding: 4px;
+	    background-clip: content-box; /* support: IE9+ */
+	    background-color: transparent;
+	}
+
+	.active, .dot:hover {
+	    background-color: #e66001;
+	}
+
+	/* Fading animation */
+	.fade {
+	    -webkit-animation-name: fade;
+	    -webkit-animation-duration: 4.50s;
+	    animation-name: fade;
+	    animation-duration: 4.50s;
+	}
+
+	@-webkit-keyframes fade {
+	    from {opacity: .60} 
+	    to {opacity: 1}
+	}
+
+	@keyframes fade {
+	    from {opacity: .60} 
+	    to {opacity: 1}
+	}
+
+	#box-button{
+		position: relative;
+		height: 15vh;
+		background: transparent;
+		margin-top: -30vh;
+		display: none;
+	}
+
+	#box-button button{
+		padding: 25px 30px;
+		background: #e66001;
+		color: #fff;
+		border:2px solid #e66001;
+		border-radius: 15px;
+		-webkit-transition: all .3s;
+		-moz-transition: all .3s;
+		-o-transition: all .3s;
+		font-family: 'Roboto', sans-serif;
+		 outline:0px !important;
+    	-webkit-appearance:none;
+    	box-shadow: none;
+	}
+
+	#box-button button:hover{
+		color: #01181e;
+	}
+
+	#left{
+		width: 100%;
+		position: relative;
+		display: -ms-flexbox;
+	    display: -webkit-flex;
+	    display: flex;
+	    -ms-flex-align: center;
+	    -webkit-align-items: center;
+	    -webkit-box-align: center;
+	    align-items: center;
+	    font-family: 'Lalezar', cursive;
+	    padding-top: 30px;
+	    padding-bottom: 30px;
+	}
+
+	#left h3{
+		margin-bottom: 20px;
+		color: #e66001;
+		font-family: 'Lalezar', cursive;
+		font-size: 2.37rem;
+	}
+
+	#left p{
+		font-size: 1.3rem;
+		margin-top: 15px;
+		font-family: 'Roboto', sans-serif;
+	}
+
+	.special-color{
+		color: #e66001;
+	}
+
+	.right-sub{
+		padding-left: 0px;
+		padding-right: 0px;
+		width: 100%;
+		height: 60vh;
+		background-repeat: no-repeat;
+		background-position: center center;
+		background-attachment: scroll;
+		background-size: cover;
+		-webkit-background-size: cover;
+		-moz-background-size: cover;
+		-o-background-size: cover;
+	}
+
+	#university-logo{
+		padding: 0px;
+		display: -ms-flexbox;
+	    display: -webkit-flex;
+	    display: flex;
+	    -ms-flex-align: center;
+	    -webkit-align-items: center;
+	    -webkit-box-align: center;
+	    align-items: center;
+	}
+
+	#university-logo img{
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+	#section-three-slider{
+		padding-left: 0px;
+		padding-right: 0px;
+	}
+
+
+
+	
+/**
+* Everything beyond the first media tag refers to mobile versions in portrait mode.
+* Css for mobile and tablet devices relates to all media tags up to 1023px browser width.
+**/
+
+@media (min-width: 544px) {
+	
+	.images{
+		height: 70vh;
+	}
+
+	#box-button button{
+		padding: 25px 45px;
+	}
+	
+	#box-button{
+		position: relative;
+		height: 15vh;
+		background: transparent;
+		margin-top: -40vh;
+	}
+
+	.right-sub{
+		height: 80vh;
+	}
+
+ }
+
+@media (min-width: 768px) {
+	
+	#box-button{
+		position: relative;
+		height: 15vh;
+		background: transparent;
+		margin-top: -15vh;
+		display: block;
+	}
+
+	.right-sub{
+		height: 100vh;
+	}
+
+	#left h1{
+		font-size: 3.5rem;
+	}
+
+ }
+
+@media (min-width: 992px) {
+	
+	#dots{
+		display: block;
+	}
+
+	#left h1{
+		font-size: 4rem;
+	}
+
+	.images{
+		height: 92vh;
+	}
+
+	.right-sub{
+		height: 100vh;
+	}
+
+ }
+
+
+
+/**
+* From here we start with styling the site for desctop devices. 
+**/
+
+@media (min-width: 1200px) {
+
+		.right-sub{
+		height: 100vh;
+	}
+
+	#left{
+		width: 100%;
+		position: relative;
+		display: -ms-flexbox;
+	    display: -webkit-flex;
+	    display: flex;
+	    -ms-flex-align: center;
+	    -webkit-align-items: center;
+	    -webkit-box-align: center;
+	    align-items: center;
+	}
+
+ }

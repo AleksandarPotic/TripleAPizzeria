@@ -1,0 +1,554 @@
+	*{
+		margin: 0px;
+		padding: 0px;
+	}
+
+	h3,p,label{
+		color:#01181E;
+	}
+
+	#cheese-category .primary{
+		min-height: 70px;
+	}
+
+	#meat-category .primary{
+		min-height: 70px;
+	}
+
+	#veggie-category .primary{
+		min-height: 70px;
+	}
+
+	#caption{
+		padding-top: 10px;
+		padding-bottom: 10px;
+		font-size: 30px;
+		color:#01181E;
+	}
+
+	#top-line{
+		border-top: 2px solid #e66001;
+		padding-bottom: 20px;
+	}
+
+	#bottom-line{
+		border-top: 2px solid #e66001;
+		padding-top: 20px;
+		margin-top: 20px;
+	}
+
+	#glutenfree{
+		display: none;
+	}
+
+	.element-container{
+		padding-bottom: 10px;
+	}
+
+	.hoveref:hover{
+		cursor:pointer;
+	}
+
+	#cheese-category{
+		display:none;
+	}
+
+	#meat-category{
+		display:none;
+	}
+
+	#veggie-category{
+		display:none;
+	}
+
+	#sauces-category{
+		display:none;
+	}
+
+	#special-category{
+		cursor: default;
+	}
+
+	.kek{
+		cursor: default;
+	}
+
+	#max{
+		font-size: 12px;
+		color:gray;
+	}
+
+	#textarea{
+		border:1px solid #e66001;
+		transition: 0.5s all ease;
+	}
+
+	#textarea:focus{
+		border:1px solid #01181E;
+		 outline:0px !important;
+    	-webkit-appearance:none;
+    	box-shadow: none;
+	}
+
+	#middle-line1{
+		border-bottom: 1px solid lightgray;
+		display: none;
+		margin-bottom: 15px;
+	}
+
+	#middle-line2{
+		border-bottom: 1px solid lightgray;
+		display: none;
+		margin-bottom: 15px;
+	}
+
+	#middle-line3{
+		border-bottom: 1px solid lightgray;
+		display: none;
+		margin-bottom: 10px;
+	}
+
+	#add-to-cart{
+		background-color: #01181E;
+		min-height: 170px;
+		display: flex;
+		font-size: 1.20rem;
+	}
+
+	#add-to-cart span{
+		color:#e66001;
+	}
+
+	#quant{
+		padding-left: 37.5px;
+		border:1px solid #e66001;
+		background-color: #01181E;
+		color: white;
+	}
+
+	#quant:focus{
+ 		outline:0px !important;
+    	-webkit-appearance:none;
+    	box-shadow: none;
+	}
+
+	#add{
+		width:240px;
+		background: #e66001;
+		color: #fff;
+		border:2px solid #e66001;
+		border-radius: 4px;
+		-webkit-transition: all .3s;
+		-moz-transition: all .3s;
+		-o-transition: all .3s;
+		font-family: 'Roboto', sans-serif;
+		text-align: left;
+	}
+
+	#add i{
+		color: #fff;
+		margin-left: 50px;
+		transition: 0.6s ease all;
+	}
+
+	#add:hover i{
+		margin-left: 70px;
+		color: #e66001;
+	}
+
+	#add:hover{
+		background: transparent;
+		color: #e66001;
+	}
+
+	input[type=number]::-webkit-inner-spin-button { 
+	    -webkit-appearance: none;
+	    cursor:pointer;
+	    display:block;
+	    width:8px;
+	    color: #333;
+	    text-align:center;
+	    position:relative;
+		}    
+		input[type=number]:hover::-webkit-inner-spin-button { 
+	    background: url("../../image/YYySO.png") no-repeat 50% 50%;  
+	    width: 16px;
+	    height: 16px;
+	    padding: 4px;
+	    position: relative;
+	    top:2px;
+	    right: 4px;
+	    border-radius: 28px;
+	}
+
+	#add{
+		margin-top: 20px;
+	}
+
+	.orange-text{
+		color: #e66001;
+		padding-bottom: 10px;
+	}
+
+	.customize{
+		font-weight: bold;
+		display: none;
+		cursor: pointer;
+		color:#e66001;
+	}
+
+	.drop{
+		height: 60px;
+		background: #01181E;
+		display: none;
+		border-top: 1px solid #e66001;
+	}
+
+	.primary{
+		height: 50px;
+		display: flex;
+		padding-left: 0;
+		padding-right: 0;
+	}
+
+	.default-check{
+		position: absolute;
+	    cursor: pointer;
+	    display: none;
+	}
+
+	.default-check:checked ~ .checkmark:after {
+	    display: block;
+	}
+
+	.default-check:checked ~ .checkmark {
+	    background-color: #e66001;
+	}
+
+	.checkmark {
+		position: absolute;
+		 top: -12px;
+	    left: 0;
+	    height: 25px;
+	    width: 25px;
+	    background-color: #fff;
+	    border: 1px solid #e66001;
+	    border-radius: 5px;
+	    cursor: pointer;
+	}
+
+	.checkmark:after {
+	    content: "";
+	    position: absolute;
+	    display: none;
+	}
+
+	.checkmark:after {
+	    left: 9px;
+	    top: 5px;
+	    width: 5px;
+	    height: 10px;
+	    border: solid white;
+	    border-width: 0 3px 3px 0;
+	    -webkit-transform: rotate(45deg);
+	    -ms-transform: rotate(45deg);
+	    transform: rotate(45deg);
+	}
+
+	.drop .sel1{
+		padding: 0;
+		padding-left: 5px;
+		height: 30px;
+	}
+
+	#line-carry{
+		padding-left: 0px;
+		padding-right: 0px;
+	}
+
+
+	#final-price{
+		margin-top: 0px;
+	}
+
+
+	@media (min-width: 300px){
+
+		#open-close-plus{
+		margin-left: 53.4%;
+		}
+
+		#open-close-plus1{
+		margin-left: 56.3%;
+		}
+
+		#open-close-plus2{
+		margin-left: 48.3%;
+		}
+		#open-close-plus3{
+		margin-left: 51.8%;
+		}
+
+		#final-price{
+			margin-top: 15px;
+		}
+	}
+
+	@media (min-width: 330px){
+
+		#open-close-plus{
+		margin-left: 57.9%;
+		}
+
+		#open-close-plus1{
+		margin-left: 60.4%;
+		}
+
+		#open-close-plus2{
+		margin-left: 53.3%;
+		}
+		#open-close-plus3{
+		margin-left: 56.5%;
+		}
+	}
+
+	@media (min-width: 370px){
+
+		#open-close-plus{
+		margin-left: 64.5%;
+		}
+
+		#open-close-plus1{
+		margin-left: 67%;
+		}
+
+		#open-close-plus2{
+		margin-left: 60.6%;
+		}
+
+		#open-close-plus3{
+		margin-left: 63.5%;
+		}
+	}
+
+	@media (min-width: 400px){
+
+		#open-close-plus{
+		margin-left: 67.5%;
+		}
+
+		#open-close-plus1{
+		margin-left: 69.3%;
+		}
+
+		#open-close-plus2{
+		margin-left: 63.5%;
+		}
+
+		#open-close-plus3{
+		margin-left: 66%;
+		}
+	}
+
+	@media (min-width: 450px){
+
+		#open-close-plus{
+		margin-left: 70%;
+		}
+
+		#open-close-plus1{
+		margin-left: 71.8%;
+		}
+
+		#open-close-plus2{
+		margin-left: 66.8%;
+		}
+
+		#open-close-plus3{
+		margin-left: 68.8%;
+		}
+	}
+
+	@media (min-width: 500px){
+
+		#open-close-plus{
+		margin-left: 72.8%;
+		}
+
+		#open-close-plus1{
+		margin-left: 74.3%;
+		}
+
+		#open-close-plus2{
+		margin-left: 70%;
+		}
+
+		#open-close-plus3{
+		margin-left: 71.8%;
+		}
+	}
+
+
+@media (min-width: 576px){
+		#line-carry{
+		padding-left: 0px;
+		padding-right: 0px;
+		}
+
+		#final-price{
+		margin-top: 0px;
+		}
+
+		#open-close-plus{
+		margin-left: 77.4%;
+		}
+
+		#open-close-plus1{
+		margin-left: 79%;
+		}
+
+		#open-close-plus2{
+		margin-left: 75%;
+		}
+
+		#open-close-plus3{
+		margin-left: 76.8%;
+		}
+
+
+		.plain-select:after{
+	    content:"";
+	    position:absolute;
+	    z-index:12;
+	    left:19.5%;
+	    top:60.3%;
+	    margin-top:-7px;
+	    height:6px;
+	    width:6px;
+	    border-top:6px solid #f99300;
+	    border-left:6px solid transparent;
+	    border-right:6px solid transparent;
+	    pointer-events:none;
+	}  }
+
+@media (min-width: 768px){
+
+		.primary{
+			padding:-15px;
+		}
+
+		#open-close-plus{
+		margin-left: 75.35%;
+		}
+
+		#open-close-plus1{
+		margin-left: 77.2%;
+		}
+
+		#open-close-plus2{
+		margin-left: 72.7%;
+		}
+
+		#open-close-plus3{
+		margin-left: 74.8%;
+		}
+
+		.plain-select:after{
+	    content:"";
+	    position:absolute;
+	    z-index:12;
+	    left:22%;
+	    top:59.8%;
+	    margin-top:-6px;
+	    height:5px;
+	    width:5px;
+	    border-top:6px solid #f99300;
+	    border-left:6px solid transparent;
+	    border-right:6px solid transparent;
+	    pointer-events:none;
+	}
+  } 
+
+@media (min-width: 992px){
+
+		#open-close-plus{
+		margin-left: 77.3%;
+		}
+
+		#open-close-plus1{
+		margin-left: 78.7%;
+		}
+
+		#open-close-plus2{
+		margin-left: 74.7%;
+		}
+
+		#open-close-plus3{
+		margin-left: 76.7%;
+		}
+
+		.plain-select:after{
+	    content:"";
+	    position:absolute;
+	    z-index:12;
+	    left:19.4%;
+	    top:59.8%;
+	    margin-top:-6px;
+	    height:5px;
+	    width:5px;
+	    border-top:6px solid #f99300;
+	    border-left:6px solid transparent;
+	    border-right:6px solid transparent;
+	    pointer-events:none;
+	}
+  }
+
+@media (min-width: 1200px){
+
+	#open-close-plus{
+		margin-left: 81.75%;
+	}
+
+	#open-close-plus1{
+		margin-left: 83%;
+	}
+
+	#open-close-plus2{
+		margin-left: 79.7%;
+	}
+
+	#open-close-plus3{
+		margin-left: 81.2%;
+	}
+
+	#contact-image{
+		width: 100%;
+		height: 50vh;
+		background-image: url('../../image/contact-image.jpg');
+		background-repeat: no-repeat;
+		background-attachment: scroll;
+		background-position: center center;
+		background-size: cover;
+		-webkit-background-size: cover;
+		-moz-background-size: cover;
+		-o-background-size: cover;
+	}
+
+		.plain-select:after{
+	    content:"";
+	    position:absolute;
+	    z-index:12;
+	    left:16.2%;
+	    top:59.2%;
+	    margin-top:-6px;
+	    height:5px;
+	    width:5px;
+	    border-top:6px solid #f99300;
+	    border-left:6px solid transparent;
+	    border-right:6px solid transparent;
+	    pointer-events:none;
+	}
+
+}
+
+	

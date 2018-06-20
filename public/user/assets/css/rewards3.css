@@ -1,0 +1,422 @@
+	*{
+		margin: 0px;
+		padding: 0px;
+		font-family: 'Roboto', sans-serif;
+	}
+
+	#contact-image{
+		width: 100%;
+		height: 45vh;
+		background-color: #e66001;
+		background-repeat: no-repeat;
+		background-attachment: scroll;
+		background-position: center center;
+		background-size: cover;
+		-webkit-background-size: cover;
+		-moz-background-size: cover;
+		-o-background-size: cover;
+		-webkit-background-size: cover;
+		-moz-background-size: cover;
+		-o-background-size: cover;
+		display: -ms-flexbox;
+	    display: -webkit-flex;
+	    display: flex;
+	    -ms-flex-align: center;
+	    -webkit-align-items: center;
+	    -webkit-box-align: center;
+	    align-items: center;
+	}
+
+	.contact-text h1{
+		padding-top: 20px;
+		padding-bottom: 0px;
+		color: #fff;
+		font-family: 'Roboto', sans-serif;
+	}
+
+	#sample-text button{
+		background-color: #fff;
+		color: #e66001;
+		border: 2px solid #e66001;
+		padding-left: 40px;
+		padding-right: 40px;
+		margin-top: 20px;
+		-webkit-transition: all .3s;
+		-moz-transition: all .3s;
+		-o-transition: all .3s;
+	}
+
+	#sample-text button:hover{
+		background-color: #e66001;
+		color: #fff;
+	}
+
+	#included-section h4{
+		color: #e66001;
+		font-size: 1.47rem;
+	}
+
+	#included-section{
+		padding-top: 10px;
+	}
+
+	.included{
+		margin-top: 30px;
+	}
+
+	#included-section ul{
+		list-style-type: none;
+		margin-top: 20px;
+	}
+
+	#steps{
+		margin-top: 30px;
+		margin-bottom: 30px;
+	}
+	
+	.step{
+		margin-top: 30px;
+	}
+
+	.step i{
+		padding: 25px; 
+		color:#e66001;
+	}
+
+	.step p{
+		color:#01181E;
+		font-size: 17px;
+	}
+
+	#carousel-card{
+		padding-top: 30px;
+		padding-bottom: 30px;
+	}
+
+	#image-one{
+		padding-left: 0px;
+		padding-right: 0px;
+		margin-top: 0px;
+		overflow: hidden;
+	}
+
+	#image-two{
+		padding-left: 0px;
+		padding-right: 0px;
+		overflow: hidden;
+	}
+
+	#card-body{
+		padding-top: 10px;
+		padding-bottom: 0px;
+	}
+	
+	.card ul li{
+		margin-left: 10px;
+	}
+
+	.card{
+		margin-bottom: 10px;
+	}
+
+	.card-body{
+		padding: 1.20rem;
+	}
+
+
+	#cardd{
+		margin-top: 30px;
+		margin-bottom: 20px;
+		padding-left: 10px;
+		padding-right: 10px;
+	}
+
+	#cardd a{
+		background: #e66001;
+		color: #fff;
+		border: 2px solid #e66001;
+		-webkit-transition: all .3s;
+		-moz-transition: all .3s;
+		-o-transition: all .3s;
+	}
+
+	#cardd a:hover{
+		background: #fff;
+		color: #e66001;
+	}
+
+	.card-body{
+		border: 1px solid #e66001;
+	}
+
+	#image-two{
+		margin-bottom: 30px;
+	}
+
+	#question{
+		margin-top: 30px;
+		margin-bottom: 30px;
+	}
+
+	#question h2{
+		color: #e66001;
+		margin-bottom: 25px; 
+	}
+
+	#question a{
+		padding: 15px;
+		background-color: #e66001;
+		color: #fff;
+		text-decoration: none;
+	}
+
+	.modal-dialog{
+		border: 20px solid #e66001;
+	}
+
+	#exampleModal1{
+		font-family: 'Roboto', sans-serif;
+	}
+
+	.modal-title{
+		vertical-align: top;
+		font-weight: 800;
+	}
+
+	#prica{
+		margin-left: 100px;
+		color: #e66001;
+		font-weight: 800;
+	}
+
+	.modal-p{
+		font-weight: 600;
+	}
+
+	#exampleModal1 select{
+		border: 1px solid #e66001;
+		width: 200px;
+		border-radius: 10px;
+	}
+
+	#exampleModal5 select{
+		border: 1px solid #e66001;
+		width: 200px;
+		border-radius: 10px;
+	}
+
+	#exampleModal5 button{
+		background: #e66001;
+		color: #fff;
+		border: 2px solid #e66001;
+		-webkit-transition: all .3s;
+		-moz-transition: all .3s;
+		-o-transition: all .3s;
+	}
+
+	#exampleModal5 button:hover{
+		color: #e66001;
+		background: #fff;
+	}
+
+	#exampleModal1 button{
+		background: #e66001;
+		color: #fff;
+		border: 2px solid #e66001;
+		-webkit-transition: all .3s;
+		-moz-transition: all .3s;
+		-o-transition: all .3s;
+	}
+
+	#exampleModal1 button:hover{
+		color: #e66001;
+		background: #fff;
+	}
+
+	#exampleModal2 select{
+		border: 1px solid #e66001;
+		width: 200px;
+		border-radius: 10px;
+	}
+
+	#exampleModal2 button{
+		background: #e66001;
+		color: #fff;
+		border: 2px solid #e66001;
+		-webkit-transition: all .3s;
+		-moz-transition: all .3s;
+		-o-transition: all .3s;
+	}
+
+	#exampleModal2 button:hover{
+		color: #e66001;
+		background: #fff;
+	}
+
+	#exampleModal3 select{
+		border: 1px solid #e66001;
+		width: 200px;
+		border-radius: 10px;
+	}
+
+	#exampleModal3 button{
+		background: #e66001;
+		color: #fff;
+		border: 2px solid #e66001;
+		-webkit-transition: all .3s;
+		-moz-transition: all .3s;
+		-o-transition: all .3s;
+	}
+
+	#exampleModal3 button:hover{
+		color: #e66001;
+		background: #fff;
+	}
+
+	.extras{
+		margin-top: 20px;
+	}
+
+	.modal-body h5{
+		font-weight: 800;
+	}
+
+	.carry{
+		min-height:150px;
+		border:1px solid #01181E; 
+		border-radius: 30px; 
+		padding: 20px;
+	}
+
+	.step{
+		border-bottom:1px solid #01181E;
+	}
+
+	#prvi{
+		padding-top: 30px;
+		border-top: 1px solid #01181E;
+	}
+
+	
+/**
+* Everything beyond the first media tag refers to mobile versions in portrait mode.
+* Css for mobile and tablet devices relates to all media tags up to 1023px browser width.
+**/
+
+@media (min-width: 544px) {
+
+	.carry{
+		min-height:150px;
+		border:1px solid #01181E; 
+		border-radius: 30px; 
+		padding: 20px;
+	}
+
+	#image-two{
+		margin-bottom: 30px;
+	}
+
+	#exampleModal1 select{
+		border: 1px solid #e66001;
+		width: 300px;
+		border-radius: 10px;
+	}
+
+	#exampleModal2 select{
+		border: 1px solid #e66001;
+		width: 300px;
+		border-radius: 10px;
+	}
+	
+	#exampleModal3 select{
+		border: 1px solid #e66001;
+		width: 300px;
+		border-radius: 10px;
+	}
+
+ }
+
+@media (min-width: 768px) {
+
+	.step{
+		border-left:1px solid #01181E;
+		border-bottom: none;
+	}
+
+	#included-section{
+		padding-top: 30px;
+	}
+
+	#prvi{
+		border-left: none;
+		padding-top: 0px;
+		border-top:none;
+
+	}
+
+	.carry{
+		min-height:260px;
+		border:1px solid #01181E; 
+		border-radius: 30px; 
+		padding: 20px;
+	}
+
+	#prev{
+		left: -100px;
+	}
+
+	#next{
+		right: -100px;
+	}
+
+	#image-one{
+		padding-left: 0px;
+		padding-right: 0px;
+		margin-top: 0px;
+		overflow: hidden;
+	}
+
+ }
+
+@media (min-width: 992px) {
+
+	#contact-image{
+		display: -ms-flexbox;
+	    display: -webkit-flex;
+	    display: flex;
+	    -ms-flex-align: center;
+	    -webkit-align-items: center;
+	    -webkit-box-align: center;
+	    align-items: center;
+	}
+
+	.carry{
+		min-height:210px;
+		border:1px solid #01181E; 
+		border-radius: 30px; 
+		padding: 20px;
+	}
+ }
+
+
+
+/**
+* From here we start with styling the site for desctop devices. 
+**/
+
+@media (min-width: 1200px) {
+
+	.contact-text h1{
+		padding-top: 40px;
+		padding-bottom: 0px;
+		color: #fff;
+		font-size: 3rem;
+		font-family: 'Roboto', sans-serif;
+	}
+
+	#image-two{
+		margin-bottom: 30px;
+	}
+
+
+ }

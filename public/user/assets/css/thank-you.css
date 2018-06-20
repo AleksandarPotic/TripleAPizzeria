@@ -1,0 +1,77 @@
+	*{
+		margin: 0px;
+		padding: 0px;
+	}
+
+	#carousel-card{
+		padding-top: 30px;
+		padding-bottom: 30px;
+	}
+
+	#image-one{
+		padding-left: 0px;
+		padding-right: 0px;
+		margin-top: 30px;
+		overflow: hidden;
+	}
+
+	#product-box{
+		padding-top: 30px;
+		padding-bottom: 30px;
+	}
+
+	#product-box p{
+		font-size: 1.3rem;
+	}
+
+	#image-two{
+		padding-left: 0px;
+		padding-right: 0px;
+		overflow: hidden;
+		margin-bottom: 30px;
+	}
+
+	
+/**
+* Everything beyond the first media tag refers to mobile versions in portrait mode.
+* Css for mobile and tablet devices relates to all media tags up to 1023px browser width.
+**/
+
+@media (min-width: 544px) {
+
+	#image-two{
+		margin-bottom: 30px;
+	}
+
+ }
+
+@media (min-width: 768px) {
+
+	#image-one{
+		padding-left: 0px;
+		padding-right: 0px;
+		margin-top: 30px;
+		overflow: hidden;
+	}
+
+ }
+
+@media (min-width: 992px) {
+
+ }
+
+
+
+/**
+* From here we start with styling the site for desctop devices. 
+**/
+
+@media (min-width: 1200px) {
+
+
+	#image-two{
+		margin-bottom: 30px;
+	}
+
+
+ }
